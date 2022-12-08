@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <p id="para">this is <b>My</b> paragraph</p>
+    <button class="text">Show Text</button>
+    <button class="html">Show Html</button>
+    <br><br>
+    Name:<input type="text" value="Vipin" id="txt">
+    <br><br>
+    <button class="btn">Show</button>
+
+    <script>
+        $(document).ready(function()
+        {
+            $(".text").click(function()
+            {
+                alert("sentence:"+$("#para").text());
+            })
+
+            $(".html").click(function()
+            {
+                alert("Code:"+$("#para").html());
+            })
+            $(".btn").click(function()
+            {
+                alert("Value:"+$("#txt").val());
+            })
+            
+        })
+    </script>
+</body>
+</html>

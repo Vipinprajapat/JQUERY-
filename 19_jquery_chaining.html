@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <button>Add</button>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam minima culpa beatae excepturi sint. Repudiandae eum facere dolore architecto accusamus commodi eos, incidunt recusandae natus tempore eaque quam exercitationem consectetur?
+        Cum reprehenderit quam architecto eos ut repellat harum asperiores tempore, blanditiis vitae animi unde nostrum pariatur autem quae earum quisquam adipisci, neque ratione esse? Officiis eaque laudantium nemo minima. Voluptas!
+        Voluptates numquam repudiandae ducimus beatae ex exercitationem deleniti eos. Delectus omnis quis autem ducimus, nam et, explicabo, neque atque repellat magni fugit aut. Voluptas distinctio error magnam sit rem suscipit.
+        Animi reiciendis fuga inventore magnam earum hic excepturi consequuntur placeat beatae? Maxime iste doloribus culpa odio magnam sed veritatis, id minima deserunt praesentium illo, quae soluta blanditiis. Id, nemo consequatur.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam ea velit assumenda excepturi? Earum ipsum doloremque reprehenderit eligendi! Sunt sit odio consequatur dignissimos? Praesentium consequatur hic ipsa quis totam libero!
+        Sint, odio, hic consequuntur dolores enim veniam molestias aliquid id quia aspernatur ipsum explicabo quos? Distinctio quibusdam ut quasi. Illum, voluptatum odit dignissimos atque voluptate at deserunt voluptatem. Quidem, laudantium.
+        Dolorem eligendi animi est corporis tenetur? Quas iste eos a nihil sequi dolorem delectus, animi pariatur reiciendis quidem voluptas, obcaecati, nostrum quos voluptatibus sit laboriosam! Quos molestiae recusandae autem cupiditate.
+        Illum eos numquam sint maiores libero, neque quam quia aut natus tenetur, nobis fugit dicta magni cupiditate veritatis, illo placeat dolor odio? In magni veniam hic numquam rerum, sapiente nihil!
+        Excepturi quibusdam dolor qui corporis odit at, natus cum expedita voluptas aut accusantium, in nulla officiis repellat dolores recusandae veritatis dicta, autem reiciendis ducimus blanditiis obcaecati quis molestiae adipisci? Accusamus!
+    </p>
+    
+    <!-- you can write jquery code in a single line or a code format this is called jquery chaining -->
+    <script>
+        $(document).ready(function()
+        {
+            $("button").click(function()
+            {
+                $("p").css("background-color","black")
+                .css("color","white")
+                .slideUp(2000)
+                .slideDown(2200);
+            })
+        })
+    </script>
+    
+</body>
+</html>

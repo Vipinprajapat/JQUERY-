@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <style>
+        button{
+            background-color: black;
+            color: antiquewhite;
+            border: 2px solid black;
+            border-radius: 10px;
+            padding: 5px;
+            margin: 5px;
+        }
+    </style>
+
+</head>
+<body>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consectetur ipsam harum hic, perferendis inventore. Provident repudiandae vero, ullam, ratione velit consequuntur inventore accusantium aut amet a doloremque odit hic.
+        In dolor eum dignissimos, esse facere facilis repellat quae consequatur consequuntur aliquam ipsum ex aut? Quasi asperiores voluptatibus fugiat quo, adipisci voluptates aliquam nisi corporis, est, blanditiis praesentium mollitia quaerat!
+        Iure dolores deserunt accusamus, labore sapiente corporis placeat praesentium ipsam quae illo exercitationem. Debitis molestias dolores facere voluptate, repellendus a architecto dolorum, aut hic consectetur nobis nemo culpa quos iste.
+        Consequuntur aliquid nobis, nemo tempora quis suscipit necessitatibus, quidem quaerat quod ratione et perspiciatis impedit vel recusandae, ipsam reprehenderit numquam! Sint inventore repellendus laborum aspernatur praesentium, delectus at accusamus vitae.
+    </p>
+    <button>Add CSS</button>
+    <script>
+        $(document).ready(function()
+        {
+            $("button").click(function()
+            {
+                $("p").css("color","red");
+            })
+            $("button").click(function()
+            {
+                $("p").css("background-color","yellow");
+            })
+        })
+    </script>
+</body>
+</html>

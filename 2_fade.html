@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <style>
+        div{
+            background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ8NDQ0NFREWFhURFRUYHSggGBomGxUVITMhJikuLi4uFx8zOzMtQygtNSsBCgoKDgwNGw8QGislHyUtKzUzNzg3NzUuLjUtNzUrNTc1MDgrLTc3NysrLy44NzE3LzM3NzctLTctMy40Nys3K//AABEIAKgBLAMBIgACEQEDEQH/xAAbAAEBAQADAQEAAAAAAAAAAAAAAgEDBQYEB//EAC0QAQEAAgIBAwIFAwUBAAAAAAABAgMEERITITEFQQYUIlFxB4GhIzJCYZEk/8QAGAEBAAMBAAAAAAAAAAAAAAAAAAIDBAH/xAAbEQEBAAIDAQAAAAAAAAAAAAAAAQIDESExBP/aAAwDAQACEQMRAD8A/EWxkVAIqMioDYqMi4BIqQkVIBFSEipAJGjQOhoADQYNAYNAYNAYNYDGVTAT0xaaCLGWLsTQRYixyVNBx2JrkqaDjrKqsoIrFVgNjYyKgNioyKgKioyKgNi4yKgEVCNgDQAaAAAAAAAAAAAMGgJGsBNZVVlBFTYupoOOpsclRQRUVyVFBNSpgNiomLgNi4mLgNi4mLgNioyKgEVGNAaAAAAAAAAAAAAAAAMo1gMZVJoJqaupoIqK5Kigioq6mgisVUg2KiYqAuKiYuAqKjIqAqNjIqA2A2AAAAADLevn2JZfi9/wDRslvxLf4nbLOvn2/kAbjjb8S37+0t9v3YAAAAAAAUAYytYDKmqqaCKmrqaDjqauooIqV1IEXExUBUXExcBUVExcBUayNBrWNAAAAB7T+lmGGXL5M/8Am9e8fXNF5XpeGPfJ1erlj6ks8pr878W/PUfd/WC6vV4EmHDw34zm4bbw5qk26ZnrmnZlMLeu/wDUsl957vzzKS+1kv8AJjjJ8ST+J0DvfwrOZbzvyGW/Dk48HymXH2XTtx1Y8vjXZfOWdTxl79/g/GGHKx5GjHm+teVODx/X/MZ3Zu8u8+vLK223rr7/ALOr4WjkbM+uNr37Nnt7cfDZnnJbJ/wnfXfSOVr24Z2b8NuGzqW478c8NnXxLZl7/YHofw7ydM0en6uGnP1M8t2WWXp5ZYeP6bL3O+r17fz/AH6b61t1Z8nblp98LZ1ZOplep3l/e9viF2e65a5hx4za/mmG27eb29N9Ln0WaNWW+5Xb46tfJw2zkeUyy5WOWzbh6Xt4zRryxx69+9v6vs89fS9X2uycf1fa59XdNHn85ePt5ePz19/hw5ZSfNk/m9NUtL0XLw13Z9S057uJ+X4vH27ON6WnCepttwx04as8Z5XLyzx7tt7mOdv7zzrnz4e3HVr35a7NO3LPDXs9vHPLH/dJ/DgAAAABgUoJrKqpoIqauooIqKupoIqVVINiomKgLi4iKgLi4iLgKjWRoNaxoAAAAO8/CeribNvIw5m7Vo158bLDHPbMP053PH3wuUvWckvV/wC6+/8AGuPAmGq8LdxNuWfI37Nk42GrHwmcx6x/TJ+iWe0+3deUAfpn9GNkxy5c05+PLywyvjjnl62WnDPj+Fxw/wBuWPee/vuW/Dqf6xZ536znjnnnn6fH0Y4+d7uM/Vl1/wC3v+7xUtnvLZf3l6pbbe7bb97b3Qen+l/kMeLx5lyMNOzLZr2b87p08nZdvryTH0853hhjhPLy7sveX6cvLp1X4j/L/mPLj3Hxz1YZ7Zhnhs14b+7MpjljJLLJjl7TqXOyfDrAHufwvzsfpnF4mz8x9N07OfzNmWfKz0Y/UOTwuJhqxklwneWFucy9uv8Al3+7yX1vkYbubzd2u96t3M5W7XbLjbrz3ZZY3q+89rPZ8YD331zxv4c4nH/I8nVjw9fC5uvnZ3L8vydvL8btwx/T1ersvt37eEeBc+fN35a8dOW/flpw68NOW7Zlpw6+PHC3xnzfifdwAAAAAyhSgypqqmgmoq6igipqqmgipVUgRcRFQFxcRFwFxURFwFRUTFQGkIA0AAAAAAfd9F5+PF3zblqx3YzG/wCnnJcblLMsLe5faZ44Wz7yWfd2PJ+scHPbozn0/HDDVsyuzDyxyu7VMPHXhe51epMe517+PtZ3QdAO45n1PiZY4TTwsdOWG/XsmUy8sstWOuTwt/e5d3+75fzuu926MfKyzvG9e9nVv+f8/wDSWMl9qGWWUvU5fCPs38vDOWXX1fbxss7xxkxnXvP3lvb4zKSeV3G2zucACKQAAADCjAZWVtTQTU1VRQTUVdRQTU1VSBFREVAXFxEVAckVERUBcVExsBTWNBoxoAAAAAAAAAAAAAADGsAYMoFTW1NBNTW1NBNRVVNBNS2sAioiKgLioiKgOSKiIqA5IqOOKgLjYmVsBTWANAAAAAAAAAAAABgAMATWsoMqa2ooMqa2poJqa2poMrBgDYlsBcVERUBcXHHFQHJFRxyrlBcVEStlBYyNBoxoNGANAAAABgNGAAMAZSsAqa21NoMqbW1FoFRW1NBlTW2poMrG1gMbGgNipWAKlXABUqpQBUqpQBsrewBvbQAaAAAAAAADAAYAM7Ta0BNTaAJtTaAJqaAJqa0BLGgP/9k=");
+            background-color: red;
+            height: 400px;
+            width: 850px;
+        }
+        button{
+            margin: 10px;
+            padding: 10px;
+            width: 120px;
+            background-color: black;
+            color: wheat;
+            border: 4px solid black;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <button id="b1">Fade in</button>
+    <button id="b2">Fade out</button>
+    <button class="tg">Fade toggle</button>
+    <button class="b3">Fade to</button>
+    <br><br><br><br>
+    <div>
+        
+    </div>
+    <script>
+        $(document).ready(function()
+        {
+            $("#b1").click(function()
+            {
+                $("div").fadeIn();
+                
+            })
+
+            $("#b2").click(function()
+            {
+                $("div").fadeOut();
+            })
+
+            $(".tg").click(function()
+            {
+                $("div").fadeToggle();
+            })
+            $(".b3").click(function()
+            {
+                $("div").fadeTo("slow",0.5);
+            })
+
+        })
+    </script>
+</body>
+</html>

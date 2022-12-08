@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <style>
+        p{
+            font-size: 28px;
+        }
+    </style>
+</head>
+<body>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quis magni molestias ab ex suscipit, aspernatur, velit cupiditate numquam eum facere? Ullam pariatur eos libero? Labore quas voluptas dolorum beatae.
+        Dolore commodi illum minus expedita ab architecto eaque delectus consectetur culpa perspiciatis voluptates, perferendis atque, corporis provident? Aut culpa beatae veritatis maiores? Iusto nihil quidem adipisci pariatur unde ullam vel!
+        Rerum magnam sunt delectus sequi animi aperiam accusantium et quam est molestiae asperiores debitis, velit nobis nisi! Excepturi ipsum dolorem cum repellendus perferendis laboriosam, omnis autem possimus. Soluta, pariatur quaerat.
+        Quos eius dolor deleniti porro ut minima! Laboriosam harum, optio fugit ipsa ullam excepturi molestias exercitationem neque praesentium, ipsum voluptas iure? Inventore deserunt officia sunt. Ratione delectus temporibus fuga asperiores.
+        Consequuntur repellendus praesentium voluptatibus, tempora sed aut iste dolorem saepe error! Nihil quae fugiat ipsa iste enim illo veritatis dolor doloribus dolorum, esse temporibus modi reprehenderit maxime neque adipisci voluptatem.
+    </p>
+    <script>
+        $(document).ready(function()
+        {
+            $("p").on({
+                mouseenter:function(){
+                    $(this).css("background-color","lightblue");
+                },
+                mouseleave:function(){
+                    $(this).css("background-color","yellow");
+                },
+                click:function(){
+                    $(this).css("background-color","grey");
+                },
+                dblclick:function(){
+                    $(this).css("background-color","pink");
+                }
+            })
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <style>
+        .vipin{
+            background-color: black;
+            color: whitesmoke;
+            font-size: 22px;
+            font-style: italic;
+            font-family: monospace;
+            height: auto;
+            width: 950px;
+        }
+        button{
+            width: 120px;
+            padding: 15px;
+            background-color: red;
+            color: wheat;
+            border: none;
+            margin: 15px;
+        }
+    </style>
+
+</head>
+<body>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, atque praesentium consequatur, qui, non quas odit delectus incidunt repellendus in nostrum? Iure sint, odio optio deserunt quas molestias vitae incidunt Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo praesentium sint tempora rerum nemo exercitationem qui ullam cupiditate aliquam aspernatur voluptate, laborum dolorem et quasi tenetur est amet reiciendis quos.
+        Perspiciatis quo sit culpa vitae deleniti reprehenderit quam ipsam, excepturi commodi iure, eum nisi officia rem nesciunt, numquam maiores dolorem reiciendis fugit quasi exercitationem? Veniam expedita corrupti consequatur facere sint.
+        Odio ducimus fuga vero, corporis tempora adipisci blanditiis, aspernatur nisi repudiandae dolor quisquam quae natus quod soluta laborum consectetur earum. Hic asperiores consequatur cupiditate deleniti sequi voluptas voluptatem atque pariatur!
+        Tenetur sint, unde corporis sit alias dolores aliquid corrupti, fugiat ullam earum obcaecati ipsum voluptatem nostrum mollitia in blanditiis! Vel, quae. Rerum voluptatibus dicta explicabo harum, velit a voluptas. Distinctio?
+    </p>
+    <button class="b1">Add Css</button>
+    <button class="b2">Remove Css</button>
+</body>
+<script>
+    $(document).ready(function()
+    {
+        $(".b1").click(function()
+        {
+            $("p").addClass("vipin");
+        })
+
+        $(".b2").click(function()
+        {
+            $("p").removeClass("vipin");
+        })
+    })
+</script>
+</html>

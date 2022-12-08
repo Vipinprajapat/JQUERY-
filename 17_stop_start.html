@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <style>
+        .header{
+            text-align: center;
+            font-size: 22px;
+            line-height: 60px;
+            height: 70px;
+            width: 100%;
+            background-color: hotpink;
+        }   
+        .content{
+            height: 350px;
+            width: 100%;
+            background-color: aquamarine;
+            color: darkgreen;
+
+        }
+        button{
+            width: 80px;
+            color: antiquewhite;
+            border: none;
+            padding: 10px;
+            margin: 10px;
+        }
+        .start{
+            background-color: blue;
+        }
+        .stop{
+            background-color: red;
+        }
+        </style>
+</head>
+<body>
+    <button class="start">Start</button>
+    <button class="stop">Stop</button>
+    <div class="header">Start Or Stop the button</div>
+    <div class="content">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam neque rem natus itaque deserunt inventore laudantium reprehenderit nisi, asperiores dolores nesciunt placeat vel? Veritatis eius ipsam velit natus molestias sit.
+        Inventore provident commodi autem iusto dolorum libero, quibusdam aliquam soluta velit rerum magni, quaerat totam ipsa quia est nobis eligendi quisquam iure itaque veniam neque. Aliquam unde alias consectetur autem?
+        Sint repellat vero assumenda facere quas explicabo, maxime ut, cupiditate amet nisi dignissimos et hic incidunt commodi? Repudiandae ab deserunt id, saepe ratione fuga consequuntur? Delectus repellat sunt repellendus voluptatibus.
+        Repellendus, neque. Blanditiis labore quisquam commodi rem nisi non hic. Impedit consequatur pariatur non, iste excepturi earum ab necessitatibus tempore expedita officiis est deleniti commodi porro eius odio incidunt ex.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis distinctio, voluptatum ipsa facilis reiciendis porro veniam adipisci nesciunt nobis accusamus illum officia quod, incidunt quo, ullam optio doloremque consequatur qui.
+        Iste, cumque, nulla optio placeat ducimus aperiam ad error minima soluta voluptates itaque natus dicta suscipit commodi aliquid voluptas adipisci molestiae! Fugit minus molestiae nihil sit eius recusandae ratione modi!
+        Quod, iste, natus, perferendis suscipit sapiente saepe eos error repellendus quos placeat vitae? Aliquam nostrum quod nobis ut consequatur dolorem officia illo explicabo. Id ad nemo quia numquam facere ut!
+        Nisi veniam harum reprehenderit repellendus. Debitis neque, temporibus nesciunt perspiciatis totam distinctio alias adipisci aperiam vel architecto magni tempore qui ipsam odit vero quis iste! Numquam ullam quas reiciendis molestiae.
+        Eaque iure debitis eum exercitationem nemo officiis quaerat ipsam quas. Tenetur, dolor. Ipsum voluptatem illum inventore aspernatur nisi minima maxime repudiandae deleniti animi minus. Tempora modi cum excepturi enim earum.
+    </div>
+
+    <script>
+        $(document).ready(function()
+        {
+            $(".start").click(function()
+            {
+                $(".content").slideToggle(2500);
+            })
+
+            $(".stop").click(function()
+            {
+                $(".content").stop();
+            })
+        })
+    </script>
+    
+</body>
+</html>
